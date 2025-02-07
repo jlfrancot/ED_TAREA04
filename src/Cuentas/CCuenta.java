@@ -35,7 +35,7 @@ public class CCuenta {
     /**
      * ingresar 
      * se le pasa una cantidad y la añade al saldo
-     * 
+     *      * 
      * @param cantidad numero a ingresar
      * @throws Exception 
      */

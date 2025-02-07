@@ -8,6 +8,9 @@ public class Main {
     }
 
 	/**
+	 * opertativa_cuenta
+	 * 
+	 * recibe un objeto cuenta y una cantidad
 	 * @param cuenta1
 	 * @param cantidad TODO
 	 */
