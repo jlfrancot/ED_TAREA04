@@ -80,7 +80,7 @@ public class CCuenta {
 	/**
 	 * @return the saldo
 	 */
-	private double getSaldo() {
+	public double getSaldo() {
 		return saldo;
 	}
 

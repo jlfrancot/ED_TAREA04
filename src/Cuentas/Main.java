@@ -12,12 +12,12 @@ public class Main {
 	 * 
 	 * recibe un objeto cuenta y una cantidad
 	 * @param cuenta1
-	 * @param cantidad TODO
+	 * @param cantidad 
 	 */
 	private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
 		double saldoActual;
 		saldoActual = cuenta1.estado();
-        System.out.println("El saldo actual es"+ saldoActual );
+        System.out.println("El saldo actual es "+ saldoActual );
 
         try {
             cuenta1.retirar(2300);
@@ -25,10 +25,11 @@ public class Main {
             System.out.print("Fallo al retirar");
         }
         try {
-            System.out.println("Ingreso en cuenta");
+            System.out.println("Ingreso en cuenta ");
             cuenta1.ingresar(695);
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
         }
+        System.out.println("El saldo actual es "+ cuenta1.getSaldo() );
 	}
 }
